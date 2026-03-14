@@ -1,0 +1,20 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, theme provider, and route definitions for all pages including home, panchang, kundali, coins, subscription, payment status, and admin.",
+  "frontend/src/components/Layout.tsx": "Root layout component that wraps all pages with header, footer, and modals for profile setup and Stripe configuration.",
+  "frontend/src/components/Header.tsx": "Responsive navigation header with language toggle, theme switcher, authentication controls, and mobile menu support.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with attribution to caffeine.ai.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup that registers new users with automatic free trial activation, collecting name, birth details, and language preference with a prominent free trial welcome message.",
+  "frontend/src/components/StripeSetupModal.tsx": "Admin-only modal for configuring Stripe payment settings including secret key and allowed countries.",
+  "frontend/src/pages/HomePage.tsx": "Landing page with hero section featuring free trial announcement, feature cards highlighting the first month free offer, and call-to-action for starting free trial.",
+  "frontend/src/pages/PanchangPage.tsx": "Displays daily Hindu calendar information with date selector and detailed panchang data cards.",
+  "frontend/src/pages/KundaliPage.tsx": "Birth chart generation page with form for birth details, display of planetary positions and houses (premium feature), and integrated AI chat widget for personalized predictions.",
+  "frontend/src/pages/CoinsPage.tsx": "Coin purchase page showing user balance and coin packages with purchase functionality.",
+  "frontend/src/pages/SubscriptionPage.tsx": "Premium subscription page displaying feature list, free trial status with days remaining counter, and Stripe checkout integration for ₹30 monthly subscription after trial ends.",
+  "frontend/src/pages/PaymentSuccess.tsx": "Success page displayed after successful payment, updates subscription status.",
+  "frontend/src/pages/PaymentFailure.tsx": "Failure page displayed when payment fails, with retry option.",
+  "frontend/src/pages/AdminPage.tsx": "Admin panel for adding panchang data, restricted to admin users only.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including user management, kundali, panchang, coins, subscriptions, Stripe configuration, and new AI chat session management (start, end, get active session, get rate).",
+  "frontend/src/hooks/useLanguage.ts": "Zustand store and hook for bilingual support (English/Hindi) with complete translation dictionary including new AI chat translations for rate display, session management, and chat interface.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring purple primary and orange accent colors for both light and dark modes.",
+  "frontend/src/components/AIChatWidget.tsx": "AI chat component for Kundali predictions with real-time timer, coin balance checking, session management, message interface, and cost tracking at ₹5 per minute."
+}
